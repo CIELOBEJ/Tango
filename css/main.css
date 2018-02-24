@@ -1,0 +1,335 @@
+/******************************************
+GENERAL
+******************************************/
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.clearfix::after {
+	content: " ";
+	display: table;
+	clear: both;
+} 
+
+
+
+
+
+
+/******************************************
+HEADER
+******************************************/
+.main-header {
+	margin: 0 0 0 0;
+	padding: 5px 0 0 0;
+	overflow: auto;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    
+}
+
+#logo {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+h1 {
+	color: #000000;
+	font-size: 2.2em;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 0 5px 10px;
+	
+}
+
+span {
+	font-size: 0.80em;
+	color: #800000;
+}
+
+
+
+
+/******************************************
+NAV
+******************************************/
+
+.navbar {
+	background: none;
+	padding: 5px 0;
+	
+	top: 20px;
+	width: 100%;
+	position: fixed;
+    top: 5px;
+   
+}
+
+.navbar a {
+    color: #fff;
+    padding: 10px 2px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+}
+
+.navbar ul {
+	list-style: none;
+	padding: 0;
+	
+}
+
+.navbar li {
+	text-align: center;
+	background-color: #000;
+	text-decoration: none;
+	color: #fff;
+
+}
+
+
+
+.navbar li a:hover {
+  background-color: #800000;
+  color: #fff;
+  
+}
+
+
+.navbar .icon {
+    display: none;
+}
+
+/******************************************
+BANNER
+******************************************/
+
+.banner {
+    padding: 586px 0 30px 0;
+    background: url(../img/background.jpg) no-repeat center / cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.arrow {
+	width: 40px;
+	color: #fff;
+}
+
+
+
+
+
+/******************************************
+SECTION
+******************************************/
+.wrapper {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 5% 5px 5%;
+	box-sizing: border-box;
+}
+
+.arrivi {
+	text-align: center;
+	padding: 25px 0;
+	margin-top: 35px;
+}
+
+.gallery {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery ul {
+	padding: 10px 0 5px 0;
+}
+
+img {
+	max-width: 100%;
+}
+
+.gallery li {
+	float: left;
+	width: 45%;
+	margin: 2.5%;
+	background-color: #e6e6e6;
+	list-style: none;
+}
+
+.gallery li a p {
+	color: #000000;
+	font-size: 0.85em;
+	padding: 5%;
+	margin: 0;
+}
+
+.gallery h1 {
+	text-align: center;
+	font-style: italic;
+}
+.container {
+	min-height: calc(100vh - 194.400px);
+}
+
+#lista {
+	padding-top: 20px;
+	text-align: center;
+	font-size: 1em;
+}
+
+p {
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.row {
+	text-align: center;
+	margin: 20px 0;
+}
+input[type="email"] {
+	height: 30px;
+	margin-top: 5px;
+	margin: 0;
+	outline: 0;
+	padding: 5px;
+}
+
+button {
+	background-color: #800000;
+	color: #fff;
+	text-align: center;
+	width: 210px;
+	display: block;
+	margin: auto;
+	height: 40px;
+	padding: 5px;
+	margin-bottom: 40px;
+}
+
+
+/******************************************
+SALDI
+******************************************/
+
+#saldi {
+	background-color: #333333;
+}
+
+.saldi {
+	list-style: none;
+	margin: 0 30px;
+	padding: 0;
+}
+
+.saldi ul {
+	padding: 10px 0 5px 0;
+}
+
+
+
+.saldi li {
+	float: left;
+	background-color: #333333;
+	list-style: none;
+}
+
+.saldi li a p {
+	color: #fff;
+	font-size: 1.1em;
+	padding: 5%;
+	margin: 0;
+	font-weight: bold;
+}
+
+
+
+
+
+
+/******************************************
+FOOTER
+******************************************/
+
+.main-footer {
+ 	text-align: center;
+ 	padding: 20px;
+ 	background-color: #bfbfbf;
+ 	clear: both;
+ 
+}
+
+.main-footer p {
+	font-size: 0.85em;
+}
+
+
+
+.icona-social {
+ 	width: 40px;
+ 	height: 40px;
+ 	text-align: center;
+ 	margin-top: 20px;
+}
+
+/******************************************
+CONTATTI
+******************************************/
+
+#contact {
+	margin: 30px 10px 30px 10px;
+	padding-top: 5px;
+}
+
+#contact-info {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+
+}
+
+
+#contact-info a {
+	color: #000000;
+	display: block;
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding: 0 0 0 30px;
+	margin: 0 0 10px;
+
+}
+
+h3 {
+	text-align: center;
+	margin-top: 30px;
+}
+
+#contatti  {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div .foto {
+	max-width: 60%;
+	margin-left: 65px;
+}
+
+/******************************************
+SALDI
+******************************************/
+
+
