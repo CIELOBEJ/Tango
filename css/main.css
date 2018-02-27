@@ -33,7 +33,8 @@ HEADER
     width: 100%;
     top: 0;
     z-index: 1;
-    background-color: #fff;
+    background-color: #bfbfbf;
+    border-bottom: 2px solid #000;
     
 }
 
@@ -99,9 +100,9 @@ NAV
 
 
 
-.navbar li a:hover {
-  background-color: #800000;
-  color: #fff;
+.navbar a:hover {
+	border-bottom: 3px solid #800000;
+  
   
 }
 
@@ -115,12 +116,14 @@ BANNER
 ******************************************/
 
 .banner {
-    padding: 586px 0 30px 0;
+    padding: 480px 0 30px 0;
     background: url(../img/background.jpg) no-repeat center / cover;
     position: relative;
     text-align: center;
     color: #fff;
 }
+
+
 
 .arrow {
 	width: 40px;
@@ -145,6 +148,8 @@ SECTION
 	text-align: center;
 	padding: 25px 0;
 	margin-top: 35px;
+	background-color: #800040;
+	color: #fff;
 }
 
 .gallery {
@@ -160,6 +165,8 @@ SECTION
 img {
 	max-width: 100%;
 }
+
+
 
 .gallery li {
 	float: left;
@@ -180,8 +187,9 @@ img {
 	text-align: center;
 	font-style: italic;
 }
-.container {
-	min-height: calc(100vh - 194.400px);
+
+.gallery1 h2 {
+	text-align: center;
 }
 
 #lista {
@@ -221,6 +229,42 @@ button {
 }
 
 
+
+
+/******************************************
+SECTION DONNA
+******************************************/
+
+.gallery1 {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.gallery1 ul {
+	padding: 10px 0 5px 0;
+}
+
+
+.gallery1 li {
+	float: left;
+
+	margin: 2.5%;
+	background-color: #e6e6e6;
+	list-style: none;
+}
+
+.gallery1 li a p {
+	color: #000000;
+	font-size: 0.85em;
+	padding: 5%;
+	margin: 0;
+}
+
+
+.zoom:hover {
+	transform: scale(1.5);
+}
 /******************************************
 SALDI
 ******************************************/
@@ -231,12 +275,13 @@ SALDI
 
 .saldi {
 	list-style: none;
-	margin: 0 30px;
+	margin: 0 10px;
 	padding: 0;
 }
 
 .saldi ul {
 	padding: 10px 0 5px 0;
+
 }
 
 
@@ -250,11 +295,13 @@ SALDI
 .saldi li a p {
 	color: #fff;
 	font-size: 1.1em;
-	padding: 5%;
 	margin: 0;
 	font-weight: bold;
 }
 
+.saldi a:hover {
+	opacity: 0.6;
+}
 
 
 
@@ -292,6 +339,7 @@ CONTATTI
 #contact {
 	margin: 30px 10px 30px 10px;
 	padding-top: 5px;
+
 }
 
 #contact-info {
@@ -323,9 +371,10 @@ h3 {
 	margin-top: 20px;
 }
 
-div .foto {
-	max-width: 60%;
-	margin-left: 65px;
+div #map {
+	
+	height: 250px;
+
 }
 
 /******************************************

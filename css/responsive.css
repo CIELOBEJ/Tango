@@ -13,10 +13,7 @@ CONTACT
       
     }
 
-    div .foto {
-      max-width: 60%;
-      margin-left: 85px;
-}
+    
 
     #contatti {
       width: 40%;
@@ -25,8 +22,8 @@ CONTACT
     }
 
      .saldi li {
-    width: 40%;
-    margin: 5%;
+    width: 45%;
+    margin: 2.5%;
   }
 }
 
@@ -72,16 +69,17 @@ HEADER
     color: #800000;
     padding: 10px 2px;
     font-weight: bold;
-}
-
-
-  .gallery li {
-    width: 28.333333%;
   }
 
+
+  .gallery1 li {
+    width: 15%;
+  }
+
+
   .saldi li {
-    width: 40%;
-    margin: 5%;
+    width: 28.333333%;
+    
   }
 
  
@@ -111,11 +109,9 @@ HEADER
     text-align: center;
   }
 
-  div .foto {
-  max-width: 60%;
-  margin-left: 65px;
-  }
+  
 
   
 
 }
+
