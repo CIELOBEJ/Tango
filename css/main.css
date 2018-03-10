@@ -158,7 +158,7 @@ SECTION
 .wrapper {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 40px 5% 40px 5%;
+	padding: 40px 2.5% 40px 2.5%;
 	box-sizing: border-box;
 }
 
@@ -235,7 +235,7 @@ SECTION DONNA
 	background-attachment: fixed;
 	margin-top: 15px;
 }
- 
+
 
 
 .gallery1 {
@@ -294,10 +294,7 @@ NARCISO
 SALDI
 ******************************************/
 
-#saldi {
-	background: url(../img/sydney.jpg) no-repeat center / cover;
-	background-attachment: fixed;
-}
+
 
 .saldi {
 	list-style: none;
