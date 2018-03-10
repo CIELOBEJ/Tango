@@ -230,12 +230,12 @@ button {
 SECTION DONNA
 ******************************************/
 
-#donna {
+.container {
 	background: url(../img/sydney.jpg) no-repeat center / cover;
 	background-attachment: fixed;
 	margin-top: 15px;
 }
-
+ 
 
 
 .gallery1 {
