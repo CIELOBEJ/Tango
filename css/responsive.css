@@ -1,34 +1,7 @@
-@media screen and (min-width: 480px) {
-/******************************************
-CONTACT
-******************************************/  
-    #contact {
-      margin-top: 70px;
-      margin-bottom: 40px;
-    }
 
-    #info {
-      width: 50%;
-      float: left;
-      
-    }
+/* Small devices (portrait tablets and large phones, 600px and up) */
 
-    
-
-    #contatti {
-      width: 40%;
-      float: right;
-      margin-top: 40px;
-    }
-
-     .saldi li {
-    width: 45%;
-    margin: 50px 2.5% 70px 2.5%;
-  }
-}
-
-
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 600px) {
 
 /******************************************
 HEADER
@@ -79,13 +52,36 @@ HEADER
 
   .saldi li {
     width: 28.333333%;
+    margin: 50px 2.5% 70px 2.5%;
     
   }
+
+  #contact {
+      margin-top: 70px;
+      margin-bottom: 40px;
+  }
+
+  #info {
+      width: 50%;
+      float: left;
+      
+  }
+
+    
+
+  #contatti {
+      width: 45%;
+      float: right;
+      margin-top: 40px;
+  }
+
 
  
 }
 
-@media screen and (max-width: 660px) {
+/* Extra small devices (phones, 600px and down) */
+
+@media screen and (max-width: 599px) {
   .navbar a {display: none;}
   .navbar a.icon {
     float: right;
@@ -109,9 +105,25 @@ HEADER
     text-align: center;
   }
 
-  
+  #contact {
+  margin: 30px 10px 30px 10px;
+  padding-top: 5px;
+
+}
+
 
   
 
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+
+
+
+
+
+
+} 
 
